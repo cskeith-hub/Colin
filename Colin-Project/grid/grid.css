@@ -1,0 +1,10 @@
+/* set default */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* add one breakpoint */
+@media only screen and (max-width: 426) {
+
+}

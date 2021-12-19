@@ -1,0 +1,205 @@
+/* set default pos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: #b87a40;
+    background-color:aliceblue;
+    color:#b87a40;
+}
+
+/*  media for max width */
+@media only screen and (max-width: 426px) {
+    
+    #header{
+        background-color:#154551;
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+
+    #brand{
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        margin-right:15%;
+        padding: 5px
+    }
+
+    #menu{
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        margin-left:15%;
+        padding: 5px;
+    }
+
+    #box{
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #nav_bar{
+        background-color:#154551;
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: 100px;
+        text-align: center;
+        padding-top: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+    }
+
+    #navigation{
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: 70px;
+        padding-top: 20px;
+
+    }
+
+    #main{
+        background-color:#154551;
+        display: flex;
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: 400px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #main_content{
+         /* border: 1px solid #b87a40; */
+         width: 100%;
+         height: 342px;
+         text-align: center;
+         padding-top: 195px;
+    }
+
+    #side_bar{
+        background-color:#154551;
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: 100px;
+        text-align: center;
+        padding-top: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #ads{
+        /* border: 1px solid #b87a40; */
+        width: 1;
+        height: max-content;
+        padding-top: 20px;
+    }
+
+    #footer{
+        background-color:#154551;
+        /* border: 1px solid #b87a40; */
+        width: 100;
+        height: max-content;
+        display: flex;
+        text-align: center;
+        margin-top: 1%;
+    }
+
+    #footer_container{
+        /* border: 1px solid #b87a40; */
+        width: 100%;
+        height: 100px;
+        padding-top: 20%;
+    }
+}
+
+/*  media for max width */
+@media only screen and (min-width: 427px){
+    
+    #header{
+        background-color:#154551;
+        /* border: 3px solid #b87a40; */
+        width: 1;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.4%;
+    }
+
+    #brand{
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        margin-right:15%;
+        padding: 5px
+    }
+
+    #menu{
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        margin-left:15%;
+        padding: 5px;
+    }
+
+    #box{
+        /* border: 1px solid #b87a40; */
+        width: 1;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #nav_bar{
+        background-color:#154551;
+        /* border: 3px solid #b87a40; */
+        width: 25%;
+        text-align: center;
+        padding-top: 260px;
+        margin: 0.4%;   
+    }
+
+    #main{
+        background-color:#154551;
+        /* border: 3px solid #b87a40; */
+        width: 50%;
+        text-align: center;
+        padding-top: 260px;
+        margin: 0.4%;
+    }
+
+    #side_bar{
+        background-color:#154551;
+        /* border: 3px solid #b87a40; */
+        width: 25%;
+        text-align: center;
+        padding-top: 260px;
+        margin: 0.4%;  
+    }
+
+    #footer{
+        background-color:#154551;
+        /* border: 3px solid #b87a40; */
+        width: 1;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0.4%;  
+    }
+
+    #footer_container{
+        /* border: 1px solid #b87a40; */
+        width: 100%;
+        /* height: 100px; */
+        padding-top: 40px;
+    }
+}

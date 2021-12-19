@@ -1,0 +1,116 @@
+/* reset default*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* small screen*/
+@media only screen and (max-width: 480px) {
+/* make all h1 with borders */
+h1{
+    border: 1px solid black
+}
+/* make all p with borders */
+p{
+    border: 1px solid white;
+}
+
+body{
+    background-color: red;
+    color: black;
+}
+
+#small{
+    /*visibility: visible;*/
+    font-size: smaller;    
+}
+
+#medium{
+    /*visibility: hidden;*/
+    font-size: medium;     
+}
+
+#large{
+    /*visibility: hidden;*/
+    font-size: larger;  
+}
+
+}
+
+/* medium screen*/
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
+
+h1{
+    border: 1px solid black
+}
+    
+p{
+    border: 1px solid red;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+}
+
+#small{
+    /*visibility: hidden;*/
+    font-size: smaller; 
+    width: 66.5%;
+}
+
+#medium{
+    /*position: absolute;*/
+    /*visibility: visible;*/
+    font-size: medium;
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 33.5%;     
+}
+
+#large{
+    flex-direction: column;
+    /*visibility: hidden;*/
+    font-size: larger;
+    width: 1;     
+}
+
+}
+
+/* large screen*/
+@media only screen and (min-width: 1024px) {
+
+h1{
+    border: 1px solid black
+}
+        
+p{
+    border: 1px solid green;
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    color:white;
+}
+
+#small{
+    /*visibility: hidden;*/
+    font-size: smaller;
+}
+
+#medium{
+    /*visibility: hidden;*/
+    font-size: medium;
+}
+
+#large{
+    /*position: absolute;*/
+    /*visibility: visible;*/
+    font-size: larger;
+    /*top: 0;*/
+    /*right: 0;*/
+}
+
+}
