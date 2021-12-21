@@ -1,4 +1,6 @@
-# Verou-3
-BeCode: exercise
+In this map u will find Exercises
 
-I use this folder to learn git and terminal
+Class: Verou-3
+BeCode: Exercises
+
+
