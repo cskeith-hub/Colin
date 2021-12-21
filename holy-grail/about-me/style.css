@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: black;
+    color:#b87a40;
+}
+.header, .me{
+    margin-bottom: 8px;
+}
+.border, .border1{
+    background-color:#154551;
+    border: 3px solid #b87a40;
+    object-fit: contain;
+    margin: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 682px){
+    .border1{
+        width:652px;
+    }
+}
+h1{
+    text-shadow: 3px 3px #5a442f;
+}
+h2{
+    margin-top: 5px;
+}
+
+.photo{
+    border: 5px solid #b87a40;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+table,th,td{
+    border: 2px solid #b87a40;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+nav{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.button{
+    border: 2px Solid #b87a40;
+    background-color: #295049 ;
+    color: #888f29 ;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+}
+
+.flipcard{
+    display:flex ;
+    border: 5px solid #b87a40 ;
+    height: 400px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flipcard .kiekeboo{
+    border: 5px solid #b87a40;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    opacity: 0;
+    background-image: url(img/opa_odette.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+.kiekeboo:hover{
+    transition: 1s;
+    opacity: 1;  
+}
+.text{
+    color: black ;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 80px;
+    
+}
