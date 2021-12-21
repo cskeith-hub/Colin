@@ -1,10 +1,12 @@
-/* set default */
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-/* add one breakpoint */
-@media only screen and (max-width: 426) {
-
+body{
+    background-color: black;
+    color: #b87a40;
+    width: 100%;;
+}
+@media only screen and(max-width: 426px) {
+    
 }
